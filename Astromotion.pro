@@ -1,4 +1,7 @@
-TEMPLATE = subdirs
-CONFIG  += ordered
+TEMPLATE     = subdirs
+CONFIG      += ordered
 
-SUBDIRS += $${PWD}/Astromotion
+SUBDIRS     += $${PWD}/Astromotion
+
+OTHER_FILES += $${PWD}/LICENSE
+OTHER_FILES += $${PWD}/README.md
